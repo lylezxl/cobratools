@@ -1,4 +1,4 @@
-package cobra_tools
+package cobra-tools
 
 import (
     "github.com/spf13/cobra"
