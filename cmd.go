@@ -1,9 +1,9 @@
-package cobra-tools
+package cobratools
 
 import (
     "github.com/spf13/cobra"
-    "github.com/lylezxl/cobra-tools/version"
-    "github.com/lylezxl/cobra-tools/completion"
+    "github.com/lylezxl/cobratools/version"
+    "github.com/lylezxl/cobratools/completion"
 )
 func NewCommand(cmd *cobra.Command)  {
     cmd.AddCommand(versions.NewCommand())

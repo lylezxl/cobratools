@@ -8,7 +8,7 @@ import (
 var (
 	gitCommit    string = "$Format:%H$"
 	buildDate    string = "1970-01-01T00:00:00Z"
-	gitVerison   string = "lose"
+	gitVersion   string = "lose"
 	gitTreeState string = "not a git tree"
 	project       string = "none"
 )
@@ -29,7 +29,7 @@ func getVersionInfo() Info {
 	return Info{
 		Gitcommit:    gitCommit,
 		BuildDate:    buildDate,
-		GitVerison:   gitVerison,
+		GitVerison:   gitVersion,
 		GitTreeState: gitTreeState,
 		GoVersion:    runtime.Version(),
 		Compiler:     runtime.Compiler,
