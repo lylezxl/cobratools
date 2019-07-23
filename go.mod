@@ -1,1 +1,1 @@
-module github.com/lylezxl/cobra-tools
+module github.com/lylezxl/cobratools
